@@ -11,6 +11,9 @@ from collections import OrderedDict
 import numpy
 import sortedcontainers
 
+
+
+
 def simulate_coding_framework(list_of_lists):
     """
     Simulates a coding framework operation on a list of lists of strings.
@@ -18,4 +21,5 @@ def simulate_coding_framework(list_of_lists):
     Parameters:
     list_of_lists (List[List[str]]): A list of lists containing strings.
     """
-    pass
+    print(list_of_lists)
+    return(list_of_lists)
